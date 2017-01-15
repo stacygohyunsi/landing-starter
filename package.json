@@ -1,15 +1,15 @@
 {
   "name": "landing-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple landing page that allows you to validate very quickly.",
   "engines": {
     "node": "6.9.2"
-  },  
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./.bin/post-install", 
-    "stacy-run" : "git clone https://github.com/stacygohyunsi/landing-starter.git"
+    "postinstall": "./.bin/post-install",
+    "stacy-run": "git clone https://github.com/stacygohyunsi/landing-starter.git"
   },
   "authors": [
     "Stacy Goh <stacy@makesmth.com>"
