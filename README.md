@@ -12,5 +12,6 @@ You can choose to use Mailgun.js to collect sign-up data as well.
 - [ ] Tests
 - [ ] Favicons
 
+Example of Landing Page Template:
 
 ![Alt text](/resources/screenshot.png "Screenshot of Landing Page")
