@@ -1,0 +1,112 @@
+<div style="text-align:center;background-repeat:no-repeat;">
+	<div
+		layout="column"
+		layout-align="center center" 
+		style="
+		background-image:url(/resources/cartoon.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:100%;
+		">
+		<div style="background-color:rgba(0,0,0,0.8);padding-bottom:50px;width:100%;">
+			<!--Title-->
+			<div layout="column" layout-align="center center"  hide-gt-xs>
+				<h1 id="title" hide-gt-xs style="margin:0;padding-top:80px;font-size:50px;color:#E06320;">Product Name</h1>
+			</div>
+			<div layout="row" layout-align="center center" hide-xs>
+				<h1 id="title" hide-xs class="md-display-2" style="font-size:100px;margin:0;padding-top:100px;color: #E06320;text-align:center;">Product Name</h1>
+			</div>
+			<!--One Liner Description-->			
+			<div style="color:white">
+				<p hide-gt-xs id="desc" style="text-align:center;padding:20px;">
+					<span>A really short description about the product/service</span>
+				</p>
+				<p hide-xs id="desc" style="font-size: 25px;font-weight:900;text-align:center;padding:20px;padding-left:40px;padding-right:40px;">
+					<span>A really short description about the product/service</span>
+				</p>
+			</div>
+			<!--If you want to use MailGun to send information to you email-->
+			<!--<form name="draft.form">
+				<p><input class="formInput" hide-xs type="text" placeholder="Name" ng-model="draft.user.name"></p>
+				<p><input class="formInput" hide-xs type="email" placeholder="Email" ng-model="draft.user.email"></p>
+				<p><input class="formInput" hide-xs type="tel" placeholder="Phone" ng-model="draft.user.tel"></p>
+
+				<p><input class="formInputSmall" hide-gt-xs type="text" placeholder="Name" ng-model="draft.user.name"></p>
+				<p><input class="formInputSmall" hide-gt-xs type="email" placeholder="Email" ng-model="draft.user.email"></p>
+				<p><input class="formInputSmall" hide-gt-xs type="tel" placeholder="Phone" ng-model="draft.user.tel"></p>
+				
+				<md-button ng-click="submitForm()" id="callToActionButton">Submit</md-button>										
+			</form>-->
+
+			<!--If you want to use Google Forms-->
+			<md-button ng-click="openForm()" id="callToActionButton">I'm interested!</md-button>										
+		</div>
+	</div>
+</div>
+<!-- what is it about?-->
+<div class="section">
+	<div 
+	flex-offset="20"
+	flex="60"
+	flex-xs="80" 
+	flex-offset-xs="10">
+		<h2>1. What is XXX about?</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	</div>
+</div>
+
+<!-- More information-->
+<div class="section" style="background-color: #f5f5f5">
+	<div 
+	flex-offset="20"
+	flex="60"
+	flex-xs="80" 
+	flex-offset-xs="10">
+		<h2>2. More information</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	</div>
+</div>
+
+<!-- get out of it?-->
+<div class="section">
+	<div
+	flex-offset="20"
+	flex="60"
+	flex-xs="80" 
+	flex-offset-xs ="10"	
+	>
+		<h2>3. More information with icons</h2>
+	</div>
+</div>
+
+<!-- More information with icons-->
+<div 
+	layout="row" 
+	layout-xs="column" 
+	layout-sm="column" 
+	flex-gt-xs="80" 
+	flex-offset-gt-xs ="10"	
+	layout-align="center start">
+	<div layout="column" flex-gt-xs=33 style="padding:10px;text-align:center;" layout-align="center center">
+		<img style="width:100px;" src='/resources/browser.png'/>
+		<h2 class="subtitle">Lorem Ipsum</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		</p>
+	</div>
+	<div layout="column" flex-gt-xs=33 style="padding:10px;text-align:center;" layout-align="center center">
+		<img style="width:100px;" src='/resources/browser.png'/>
+		<h2 class="subtitle">Lorem Ipsum</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		</p>
+	</div>
+	<div layout="column" flex-gt-xs=33 style="padding:10px;text-align:center;" layout-align="center center">
+		<img style="width:100px;" src='/resources/browser.png'/>
+		<h2 class="subtitle">Lorem Ipsum</h2>
+		<p> 
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		</p>		
+	</div>												
+</div>	

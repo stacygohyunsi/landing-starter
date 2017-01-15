@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Bungee Shade';
+  src: url('./bungee-shade-regular.eot?#iefix') format('embedded-opentype'), 
+       url('./bungee-shade-regular.woff2') format('woff2'), 
+       url('./bungee-shade-regular.woff') format('woff'), 
+       url('./bungee-shade-regular.ttf')  format('truetype')
+}
+
+body{
+	font-family: 'Montserrat';
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#landingPageToolBar{
+	z-index:10000; 
+	position:absolute;
+	background-color:rgba(0,0,0,0.7);
+}
+
+#callToActionButton {
+	background-color: #E06320; 
+	font-size:30px;
+	padding:20px;
+	color:white
+}
+
+#nameLogo {
+	font-family: Bungee Shade;
+	display:inline; 
+	padding-left:10px;
+	color:white
+}
+
+.impt{
+	color: #E06320;
+	font-weight: 900;
+}
+
+.section {
+	padding: 10px;
+	text-align: left;
+}
+#title {
+	font-family: 'Bungee Shade';
+}
+
+#signup{
+	background-color: #C0392B;
+	border-radius: 5px;
+	padding:15px;
+}
+
+.formInput{
+	height:40px;
+	width: 30%;
+}
+
+.formInputSmall{
+	height:50px;
+	width: 90%;
+}
+.tag .icon-remove {
+	color:#888;
+	font-size:14px;
+}
